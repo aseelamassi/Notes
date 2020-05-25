@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignUpActivity">
+
+
+    <TextView
+        android:id="@+id/tv_login_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_Up"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_login_label"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:hint="@string/name_hint"
+        android:padding="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/background_edit_text"
+        />
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"
+        android:layout_marginBottom="30dp"
+        android:hint="@string/email_hint"
+        android:padding="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/background_edit_text"
+        />
+
+
+    <EditText
+    android:id="@+id/et_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/et_email"
+    android:layout_marginBottom="30dp"
+    android:hint="@string/pass_hint"
+    android:padding="20dp"
+    android:inputType="textPassword"
+    android:background="@drawable/background_edit_text"
+    />
+
+
+    <EditText
+        android:id="@+id/et_re_entered_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_password"
+        android:layout_marginBottom="30dp"
+        android:hint="@string/re_password"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/background_edit_text"
+        />
+
+
+
+    <Button
+        android:onClick="signUp"
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/background_edit_text"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_below="@id/et_re_entered_password"
+        android:textColor="@color/white"
+        android:text="@string/sign_Up"
+
+        />
+
+    <TextView
+        android:onClick="login"
+        android:id="@+id/tv_have_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:text="@string/have_account"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

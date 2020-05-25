@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Enter your Email</string>
+    <string name="pass_hint">Enter your password</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="have_not_account">If you do not have an account, sign up</string>
+    <string name="have_account">If you have an account, Login</string>
+    <string name="re_password">Re enter your password</string>
+    <string name="sign_Up">Sign up</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="save">Save</string>
+    <string name="add_note">Create a new note</string>
+    <string name="title">Title</string>
+    <string name="note_content">Write your note here ......</string>
+    <string name="update">Update</string>
+    <string name="your_note">Your note</string>
+</resources>
